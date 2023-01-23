@@ -39,5 +39,5 @@ if($check_array['count(ad_id)'] == '0') {
 }
 
 header('location: index.php');
-
+header('location: index.php');
 ?>
