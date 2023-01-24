@@ -22,6 +22,5 @@ $name_array = mysqli_fetch_assoc($name_result);
 $vehicle_query = "Select vehicle_type, vehicle_name, vehicle_no, seats from vehicle_details where ad_id='$ad_id'";
 $vehicle_result = mysqli_query($db, $vehicle_query);
 $vehicle_array = mysqli_fetch_assoc($vehicle_result);
-$vehicle_result = mysqli_query($db, $vehicle_query);
-$vehicle_array = mysqli_fetch_assoc($vehicle_result);
+
 ?>
