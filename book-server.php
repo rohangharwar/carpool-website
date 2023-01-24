@@ -46,5 +46,5 @@ if($id!=$driver_id) {
 } else {
     echo "You cannot book your own ad!";
 }
-
+echo "You cannot book your own ad!";
 ?>
